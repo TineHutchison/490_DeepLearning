@@ -33,4 +33,4 @@ def load_letters(size=25, one_example_per_letter=False):
             letter_objects.append(Letter([int(x) for x in instance_array],letter))
             count += 1
 
-    return len(letters), letter_objects
+    return letter_objects
